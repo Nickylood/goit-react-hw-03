@@ -1,0 +1,11 @@
+.input {
+  display: flex;
+  border-radius: 4px;
+  background-color: transparent;
+  color: inherit;
+  transition: border-color 0.3s ease, transform 0.3s ease;
+}
+
+input:hover {
+  border-color: rgb(104, 188, 14);
+}

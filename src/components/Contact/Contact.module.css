@@ -1,0 +1,38 @@
+.div {
+  display: flex;
+  flex-direction: row;
+  border: 2px solid;
+  padding: 0px 8px;
+  border-radius: 6px;
+  justify-content: space-between;
+  align-items: center;
+  width: 360px;
+}
+.list {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+.item {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.btn {
+  background-color: rgb(253, 253, 253);
+  color: black;
+  font-size: 17px;
+  font-weight: bold;
+  border-radius: 4px;
+  border: 2px solid rgb(25, 26, 28);
+  padding: 10px 22px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.btn:hover,
+.btn:focus {
+  border: 2px solid black;
+  color: white;
+  background-color: black;
+}

@@ -4,6 +4,8 @@
   background-color: transparent;
   color: inherit;
   transition: border-color 0.3s ease, transform 0.3s ease;
+  padding: 4px;
+  margin-bottom: 15px;
 }
 
 input:hover {
